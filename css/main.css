@@ -1,0 +1,83 @@
+.windows {
+    width: 860px;
+    height: 100vh;
+    margin: 50px auto 0 auto;
+}
+
+.info {
+    margin-right: 80px;
+    position: fixed;
+}
+
+.info-name {
+    color: #267CB9;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.info-avata {
+    border-radius: 50%;
+    width: 270px;
+    height: 270px;
+}
+
+.info-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.info-link-resume,
+.info-link-github,
+.info-link-linkedin {
+    margin: 4px;
+    color: #267CB9;
+    font-weight: 500;
+}
+
+.info-link-resume:hover,
+.info-link-github:hover,
+.info-link-linkedin:hover {
+    margin: 4px;
+    color: #069;
+    font-weight: bold;
+}
+
+.separation {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.info-title {
+    margin-top: 20px;
+    color: #333;
+}
+
+.profile {
+    float: right;
+    width: 500px;
+}
+
+.profile-expertise {
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 16px;
+    border-bottom: solid rgba(0, 0, 0, 0.1) 1px;
+}
+
+.profile-wed {
+    font-size: 22px;
+    font-weight: 600;
+    color: #333;
+    margin-top: 16px;
+}
+
+.logo-github {
+    margin-top: 16px;
+}
+
+.profile-detail {
+    margin-top: 16px;
+}

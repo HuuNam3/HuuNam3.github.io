@@ -1,7 +1,7 @@
 function App() {
   return (
-    <h1 className="font-bold text-3xl underline">
-      Hello cc!
+    <h1 className="px-4 text-center text-white sm:px-8 py-2 sm:py-3 bg-sky-700 hover:bg-sky-800 ">
+      Hello!
     </h1>
   )
 }
