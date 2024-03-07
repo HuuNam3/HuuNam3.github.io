@@ -15,23 +15,59 @@
         <h1 class="info-name">Huu Nam</h1>
         <img src="https://st.quantrimang.com/photos/image/2020/12/28/anh-de-nham-lan-7.jpg" alt="avata" class="info-avata">
         <div class="info-link">
-            <a href="" class="info-link-resume">Resume</a>
+            <a href="./document/Resume.pdf" class="info-link-resume">Resume</a>
             <span class="separation">|</span>
             <a href="" class="info-link-linkedin">LinkedIn</a>
             <span class="separation">|</span>
             <a href="https://github.com/NHNam2003" class="info-link-github">GitHub</a>
         </div>
-        <p class="info-title">I learning Sai Gon university</p>
+        <p class="info-title">I am studying at Saigon University</p>
+        <p class="info-gender">Gender: Male</p>
+        <a class="info-email" href="https://mail.google.com/mail" target="_blank" >Send email for me: 
+          <br>
+          nhnam4411@gmail.com
+        </a>
+        <p class="info-phone">Phone: 0947763149</p>
       </div>
       <div class="profile">
             <h1 class="profile-expertise">Expertise</h1>
             <h2 class="profile-wed">Build Websites</h2>      
-            <p class="profile-detail">Project web1</p>
+            <p class="profile-wed-name">Project Name: Fashion shop</p>
+            <p class="profile-wed-name">
+              The Online Fashion Shop Project offers a comprehensive range of fashion products including clothing, footwear, and accessories for both men and women. Our platform provides a seamless and secure online shopping experience, featuring:
+              <br><br>
+              A diverse selection of products from reputable brands and designers.
+
+              An intuitive user interface for easy navigation and browsing.
+              <br><br>
+              Detailed product information, including descriptions, specifications, and customer reviews.
+              <br><br>
+              Multiple safe and convenient payment options, including online payment and cash on delivery.
+              <br><br>
+              Responsive customer service support to assist with inquiries and issues.
+              <br><br>
+              Fast and reliable delivery services to ensure timely receipt of orders.
+            </p>
             <a href="https://github.com/NHNam2003/web1" class="">
                 <img src="https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub" alt="profile-githhub" class="logo-github">  
             </a>
       </div>
+      <audio id="myAudio" autoplay>
+        <source src="./audio/onichan.mp3" type="audio/mpeg">
+      </audio>
     </div>
+    <script>
+      const click = document.querySelector('.info-avata')
+      click.onclick = () => {
+        var audio = document.getElementById("myAudio");
+        audio.play();
+      }
+
+      window.onload = () => {
+        var audio = document.getElementById("myAudio");
+        audio.play();
+      }
+    </script>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

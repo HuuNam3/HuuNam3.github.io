@@ -1,12 +1,15 @@
 .windows {
-    width: 860px;
+    width: 900px;
     height: 100vh;
     margin: 50px auto 0 auto;
 }
 
 .info {
-    margin-right: 80px;
     position: fixed;
+    height: 100vh;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    padding: 16px;
 }
 
 .info-name {
@@ -51,8 +54,27 @@
 }
 
 .info-title {
+    font-size: 18   px;
     margin-top: 20px;
     color: #333;
+    text-align: center;
+}
+
+.info-gender {
+    text-align: center;
+    margin-top: 24px;
+}
+
+.info-email {
+    margin-top: 24px;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.info-phone {
+    margin-top: 24px;
+    text-align: center;
 }
 
 .profile {
