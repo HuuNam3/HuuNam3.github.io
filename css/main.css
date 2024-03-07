@@ -98,6 +98,16 @@
     margin-top: 16px;
 }
 
+.skill {
+    display: flex;
+    justify-content: space-around;
+}
+
+.skill-icon {
+    width: 50px;
+    height: 50px;
+}
+
 .logo-github {
     margin-top: 16px;
 }
