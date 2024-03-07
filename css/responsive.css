@@ -1,0 +1,47 @@
+/* mobile & tablet */
+@media (max-width: 1023px) {
+    
+}
+
+/* tablet */
+@media  (min-width: 740px) and (max-width: 1023px) {
+    .windows {
+        width: 100%;
+    }
+
+    .info {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .profile {
+        float: none;
+        margin: 24px auto 0;
+    }
+}
+
+/* mobile */
+@media (max-width: 739px) {
+    .windows {
+        width: 100%;
+    }
+
+    .info {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .profile {
+        width: 90%;
+        float: none;
+        margin: 24px auto 0;
+    }
+}
