@@ -24,6 +24,7 @@
     border-radius: 50%;
     width: 270px;
     height: 270px;
+    cursor: pointer;
 }
 
 .info-link {
@@ -70,6 +71,7 @@
     display: block;
     width: 100%;
     text-align: center;
+    text-decoration: none;
 }
 
 .info-phone {
